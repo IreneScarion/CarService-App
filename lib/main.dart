@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:victory_project1/screens/signup%20screen/signup_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyCustomForm());
 }
 
 class MyApp extends StatelessWidget {
@@ -20,9 +21,9 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Meow'),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
