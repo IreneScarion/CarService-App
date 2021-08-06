@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:victory_project1/screens/signup%20screen/signup_screen.dart';
 
 void main() {
-  runApp(MyCustomForm());
+  runApp(MaterialApp(home: Sign()));
 }
 
 class MyApp extends StatelessWidget {
@@ -10,8 +10,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: AppBarTheme(
+          color: Colors.white,
+          elevation: 0,
+          brightness: Brightness.light,
+          iconTheme: IconThemeData(color: Colors.black),
+        ),
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
