@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:victory_project1/size_config.dart';
+
+import '../../../size_config.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -8,25 +9,98 @@ class Body extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            Row(
-              children: [
-                Column(
-                  children: [
-                    SizedBox(
-                      width: getProportionateScreenWidth(173),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: [
-                    Container(),
-                  ],
-                )
-              ],
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: Row(
+                children: [
+                  Spacer(),
+                  Column(
+                    children: [
+                      SizedBox(
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(14),
+                          child: Stack(
+                            children: [
+                              Image.asset(
+                                "assets/images/petrol station 1.png",
+                                fit: BoxFit.cover,
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Spacer(),
+                  Column(
+                    children: [
+                      SizedBox(
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(14),
+                          child: Stack(
+                            children: [
+                              Image.asset(
+                                "assets/images/pexels-sourav-mishra-3644847 1.png",
+                                fit: BoxFit.cover,
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Spacer()
+                ],
+              ),
             ),
-            Container(),
-            Container(),
-            Container()
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: SizedBox(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(14),
+                  child: Stack(
+                    children: [
+                      Image.asset(
+                        "assets/images/pexels-cottonbro-4480453 1.png",
+                        fit: BoxFit.cover,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: SizedBox(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(14),
+                  child: Stack(
+                    children: [
+                      Image.asset(
+                        "assets/images/pexels-erik-mclean-5763199 1.png",
+                        fit: BoxFit.cover,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: SizedBox(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(14),
+                  child: Stack(
+                    children: [
+                      Image.asset(
+                        "assets/images/police traffic 1.png",
+                        fit: BoxFit.cover,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
