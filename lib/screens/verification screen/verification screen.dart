@@ -28,10 +28,14 @@ class _VerifyState extends State<Verify> {
                height: 30,
               ),
               VerificationCodeInput(
-                  keyboardType: TextInputType.number,
+                keyboardType: TextInputType.number,
                   length: 4,
-                  autofocus: true,)
-                  // onCompleted: () {},
+                autofocus: true,
+
+
+
+              )
+
             ],
           ),
         ),
