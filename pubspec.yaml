@@ -53,7 +53,7 @@ flutter:
 
   
   assets:
-    - assets/images/policetraffic.jpg
+    - assets/images/
  
 
   # An image asset can refer to one or more resolution-specific "variants", see
