@@ -27,19 +27,23 @@ dependencies:
     git:
       url: git://github.com/tiny-express/flutter_verification_code_input
     version: ^0.1.2
-    #email_validator: ^1.0.6
+    
 
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+ 
   cupertino_icons: ^1.0.2
   font_awesome_flutter: ^8.10.0
   flutter_svg: ^ 0.17.4 
+  flutter_image_slideshow: ^0.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+#Stuffs za kuweka the google map
+   # dio: ^4.0.0
+    #flutter_polyline_points: ^0.2.6
+#google_maps_flutter: ^2.0.2
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -53,7 +57,7 @@ flutter:
 
   
   assets:
-    - assets/images/policetraffic.jpg
+    - assets/images/
  
 
   # An image asset can refer to one or more resolution-specific "variants", see
